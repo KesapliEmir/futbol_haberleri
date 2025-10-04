@@ -52,8 +52,8 @@
         <nav id="navmenu" class="navmenu">
           <ul>
             <li><a href="#anasayfa">Anasayfa</a></li>
-            <li><a href="#gununhaberleri">Günün Manşetleri</a></li>
             <li><a href="#türkiyefutbolrehberi">Türkiye Futbol Rehberi</a></li>
+            <li><a href="#gununhaberleri">Günün Manşetleri</a></li>
             <li><a href="#haberler">Haberler</a></li>
             <li><a href="#gununyorumu">Günün Yorumu</a></li>
             <li><a href="#hakkında">Hakkında</a></li>
@@ -205,6 +205,110 @@
 
 
     </section>
+    <!-- / Türkiye Futbol Rehber Bölümü -->
+    <section id="türkiyefutbolrehberi" class="menu section">
+
+      <!-- Bölüm Başlığı -->
+      <div class="container section-title" data-aos="fade-up">
+        <h2>Türkiye Futbol Rehberi</h2>
+        <div><span>Haftanın Karşılaşmaları</span>
+      </div><!-- Son Bölüm Başlığı-->
+
+      <div class="container isotope-layout" data-default-filter="*" data-layout="masonry" data-sort="original-order">
+
+        <div class="row" data-aos="fade-up" data-aos-delay="100">
+          <div class="col-lg-12 d-flex justify-content-center">
+            <ul class="menu-filters isotope-filters">
+              <li data-filter="*" class="filter-active"></li>
+            </ul>
+          </div>
+        </div><!--Menü Filtreleri -->
+
+        <div class="row isotope-container" data-aos="fade-up" data-aos-delay="200">
+
+            <div class="col-lg-6 menu-item isotope-item filter-starters">
+            <img src="assets/img/samsungöztepe.jpg" class="menu-img" alt="">
+            <div class="">
+              <a>Samsun – Göztepe</a>
+            </div>
+            <div class="menu-ingredients">
+             Süper Lig'de 4.lük mücadelesi Saat 16:00 | BeIN Max 2
+            </div>
+          </div><!-- Menü Öğesi -->
+
+          <div class="col-lg-6 menu-item isotope-item filter-salads">
+            <img src="assets/img/beşiktaştrabzon.jpg" class="menu-img" alt="">
+            <div class="">
+              <a>Beşiktaş – Trabzonspor</a>
+            </div>
+            <div class="menu-ingredients">
+              Süper Lig’de dev mücadele Saat 19:00 | BeIN Sports 2
+            </div>
+          </div><!-- Menü Öğesi -->
+
+          <div class="col-lg-6 menu-item isotope-item filter-salads">
+            <img src="assets/img/galatasarayfenerbahçe.jpg" class="menu-img" alt="">
+            <div class="">
+              <a>Galatasaray – Fenerbahçe</a>
+            </div>
+            <div class="menu-ingredients">
+              Süper Lig’de dev derbi! Kritik 3 puan mücadelesi Saat 20:00 | BeIN Sports 1
+            </div>
+            </div><!-- Menü Öğesi -->
+
+          <div class="col-lg-6 menu-item isotope-item filter-specialty">
+            <img src="assets/img/istanbul-gaziantep.jpg" class="menu-img" alt="">
+            <div class="">
+              <a>Başakşehir FK - Gaziantep FK</a>
+            </div>
+            <div class="menu-ingredients">
+              Süper Lig’de zirve mücadelesi Saat 19:00 | BeIN Sports 3
+            </div>
+          </div><!-- Menü Öğesi-->
+
+          <div class="col-lg-6 menu-item isotope-item filter-starters">
+           <img src="assets/img/alanyaantalya.jpg" class="menu-img" alt="">
+           <div class="">
+            <a>Alanyaspor – Antalyaspor</a>
+          </div>
+          <div class="menu-ingredients">
+            Süper Lig’de kritik 3 puan mücadelesi Saat 17:00 | BeIN Sports 1
+          </div>
+          </div><!-- Menü Öğesi -->
+
+         <div class="col-lg-6 menu-item isotope-item filter-salads">
+          <img src="assets/img/kocaeligençlerbirliği.jpg" class="menu-img" alt="">
+          <div class="">
+           <a>Kocaelispor – Gençlerbirliği</a>
+          </div>
+         <div class="menu-ingredients">
+           Süper Lig’de zorlu mücadele Saat 16:00 | BeIN Sports 2
+         </div>
+         </div><!-- Menü Öğesi -->
+
+        <div class="col-lg-6 menu-item isotope-item filter-specialty">
+         <img src="assets/img/kasımpaşa.jpg" class="menu-img" alt="">
+         <div class="">
+           <a>Kasımpaşa – Kayserispor</a>
+         </div>
+         <div class="menu-ingredients">
+           Süper Lig’de orta sıra mücadelesi Saat 18:00 | BeIN Sports 3
+        </div>
+        </div><!-- Menü Öğesi -->
+
+        <div class="col-lg-6 menu-item isotope-item filter-specialty">
+         <img src="assets/img/konyaeyüp.jpg" class="menu-img" alt="">
+        <div class="">
+          <a>Konyaspor - Eyüp FK</a>
+        </div>
+        <div class="menu-ingredients">
+         Süper Lig’de heyecan dolu mücadele Saat 19:00 | BeIN Sports 4
+        </div>
+        </div><!-- Menü Öğesi -->
+      </div>
+
+    </section><!-- /Menü Bölümü -->
+
     <!-- Günün Haberleri Bölümü -->
     <section id="gununhaberleri" class="events section">
 
@@ -403,109 +507,7 @@
 
       </div>
 
-    </section><!-- / Türkiye Futbol Rehber Bölümü -->
-    <section id="türkiyefutbolrehberi" class="menu section">
-
-      <!-- Bölüm Başlığı -->
-      <div class="container section-title" data-aos="fade-up">
-        <h2>Türkiye Futbol Rehberi</h2>
-        <div><span>Haftanın Karşılaşmaları</span>
-      </div><!-- Son Bölüm Başlığı-->
-
-      <div class="container isotope-layout" data-default-filter="*" data-layout="masonry" data-sort="original-order">
-
-        <div class="row" data-aos="fade-up" data-aos-delay="100">
-          <div class="col-lg-12 d-flex justify-content-center">
-            <ul class="menu-filters isotope-filters">
-              <li data-filter="*" class="filter-active"></li>
-            </ul>
-          </div>
-        </div><!--Menü Filtreleri -->
-
-        <div class="row isotope-container" data-aos="fade-up" data-aos-delay="200">
-
-            <div class="col-lg-6 menu-item isotope-item filter-starters">
-            <img src="assets/img/samsungöztepe.jpg" class="menu-img" alt="">
-            <div class="">
-              <a>Samsun – Göztepe</a>
-            </div>
-            <div class="menu-ingredients">
-             Süper Lig'de 4.lük mücadelesi Saat 16:00 | BeIN Max 2
-            </div>
-          </div><!-- Menü Öğesi -->
-
-          <div class="col-lg-6 menu-item isotope-item filter-salads">
-            <img src="assets/img/beşiktaştrabzon.jpg" class="menu-img" alt="">
-            <div class="">
-              <a>Beşiktaş – Trabzonspor</a>
-            </div>
-            <div class="menu-ingredients">
-              Süper Lig’de dev mücadele Saat 19:00 | BeIN Sports 2
-            </div>
-          </div><!-- Menü Öğesi -->
-
-          <div class="col-lg-6 menu-item isotope-item filter-salads">
-            <img src="assets/img/galatasarayfenerbahçe.jpg" class="menu-img" alt="">
-            <div class="">
-              <a>Galatasaray – Fenerbahçe</a>
-            </div>
-            <div class="menu-ingredients">
-              Süper Lig’de dev derbi! Kritik 3 puan mücadelesi Saat 20:00 | BeIN Sports 1
-            </div>
-            </div><!-- Menü Öğesi -->
-
-          <div class="col-lg-6 menu-item isotope-item filter-specialty">
-            <img src="assets/img/istanbul-gaziantep.jpg" class="menu-img" alt="">
-            <div class="">
-              <a>Başakşehir FK - Gaziantep FK</a>
-            </div>
-            <div class="menu-ingredients">
-              Süper Lig’de zirve mücadelesi Saat 19:00 | BeIN Sports 3
-            </div>
-          </div><!-- Menü Öğesi-->
-
-          <div class="col-lg-6 menu-item isotope-item filter-starters">
-           <img src="assets/img/alanyaantalya.jpg" class="menu-img" alt="">
-           <div class="">
-            <a>Alanyaspor – Antalyaspor</a>
-          </div>
-          <div class="menu-ingredients">
-            Süper Lig’de kritik 3 puan mücadelesi Saat 17:00 | BeIN Sports 1
-          </div>
-          </div><!-- Menü Öğesi -->
-
-         <div class="col-lg-6 menu-item isotope-item filter-salads">
-          <img src="assets/img/kocaeligençlerbirliği.jpg" class="menu-img" alt="">
-          <div class="">
-           <a>Kocaelispor – Gençlerbirliği</a>
-          </div>
-         <div class="menu-ingredients">
-           Süper Lig’de zorlu mücadele Saat 16:00 | BeIN Sports 2
-         </div>
-         </div><!-- Menü Öğesi -->
-
-        <div class="col-lg-6 menu-item isotope-item filter-specialty">
-         <img src="assets/img/kasımpaşa.jpg" class="menu-img" alt="">
-         <div class="">
-           <a>Kasımpaşa – Kayserispor</a>
-         </div>
-         <div class="menu-ingredients">
-           Süper Lig’de orta sıra mücadelesi Saat 18:00 | BeIN Sports 3
-        </div>
-        </div><!-- Menü Öğesi -->
-
-        <div class="col-lg-6 menu-item isotope-item filter-specialty">
-         <img src="assets/img/konyaeyüp.jpg" class="menu-img" alt="">
-        <div class="">
-          <a>Konyaspor - Eyüp FK</a>
-        </div>
-        <div class="menu-ingredients">
-         Süper Lig’de heyecan dolu mücadele Saat 19:00 | BeIN Sports 4
-        </div>
-        </div><!-- Menü Öğesi -->
-      </div>
-
-    </section><!-- /Menü Bölümü -->
+    </section>
 
     <!-- Haberler Bölümü -->
     <section id="haberler" class="specials section">
@@ -652,7 +654,7 @@
 
     </section><!-- /Günün Yorum Bölümü -->
     <!-- Görüşler Bölümü -->
-    <section id="gününyorumu" class="testimonials section dark-background">
+    <section id="gununyorumu" class="testimonials section dark-background">
            <div class="container section-title" data-aos="fade-up">
         <h2>Günün Yorumu</h2>
         <div><span>Maç öncesi ve sonrası tüm demeçler tek adreste.</span>
