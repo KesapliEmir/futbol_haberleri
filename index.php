@@ -821,6 +821,176 @@
       </div>
 
     </section><!-- /Görüşler Bölüm Sonu-->
+
+
+    <style>
+  .standings-wrap {
+    overflow-x: auto;
+    -webkit-overflow-scrolling: touch;
+    padding: 0.5rem 0.25rem;
+  }
+  .standings {
+    display: flex;
+    gap: 1rem;
+    align-items: flex-end;
+    flex-wrap: nowrap;
+    white-space: nowrap;
+  }
+  .team {
+    flex: 0 0 80px;
+    text-align: center;
+    font-family: Arial, sans-serif;
+  }
+  .team img {
+    width: 48px;
+    height: 48px;
+    object-fit: cover;
+    border-radius: 4px;
+  }
+  .points {
+    margin-top: 6px;
+    font-weight: 700;
+    font-size: 14px;
+  }
+  .bar {
+    height: 6px;
+    width: calc(var(--points, 5) * 3px);
+    background: var(--bar-color, #6c757d);
+    border-radius: 4px;
+    margin: 6px auto 0;
+    transition: width 400ms ease;
+  }
+  .standings-wrap::-webkit-scrollbar {
+    height: 8px;
+  }
+  .standings-wrap::-webkit-scrollbar-thumb {
+    background: rgba(0,0,0,0.15);
+    border-radius: 6px;
+  }
+</style>
+
+<!-- ✅ SÜPER LİG PUAN TABLOSU -->
+<div class="container mt-4" data-aos="fade-up">
+  <h5 class="text-center mb-3">2025-26 Süper Lig Puan Tablosu</h5>
+
+  <div class="standings-wrap">
+    <div class="standings">
+
+      <div class="team" style="--points:21; --bar-color:#f1c40f" title="Galatasaray — 21">
+        <img src="assets/img/gslogo.png" alt="Galatasaray">
+        <div class="points">21</div>
+        <div class="bar"></div>
+      </div>
+
+      <div class="team" style="--points:15; --bar-color:#3498db" title="Fenerbahçe — 15">
+        <img src="assets/img/fenerbahçelogo.jpg" alt="Fenerbahçe">
+        <div class="points">15</div>
+        <div class="bar"></div>
+      </div>
+
+      <div class="team" style="--points:14; --bar-color:#2ecc71" title="Trabzonspor — 14">
+        <img src="assets/img/trabzonlogo.jpg" alt="Trabzonspor">
+        <div class="points">14</div>
+        <div class="bar"></div>
+      </div>
+
+      <div class="team" style="--points:13; --bar-color:#16a085" title="Göztepe — 13">
+        <img src="assets/img/göztepelogo.jpg" alt="Göztepe">
+        <div class="points">13</div>
+        <div class="bar"></div>
+      </div>
+
+      <div class="team" style="--points:12; --bar-color:#e67e22" title="Beşiktaş — 12">
+        <img src="assets/img/bjklogoo.jpg" alt="Beşiktaş">
+        <div class="points">12</div>
+        <div class="bar"></div>
+      </div>
+
+      <div class="team" style="--points:12; --bar-color:#95a5a6" title="Samsunspor — 12">
+        <img src="assets/img/samsunlogo.jpg" alt="Samsunspor">
+        <div class="points">12</div>
+        <div class="bar"></div>
+      </div>
+
+      <div class="team" style="--points:11; --bar-color:#9b59b6" title="Gaziantep FK — 11">
+        <img src="assets/img/gazianteplogo.jpg" alt="Gaziantep FK">
+        <div class="points">11</div>
+        <div class="bar"></div>
+      </div>
+
+      <div class="team" style="--points:10; --bar-color:#e74c3c" title="Konyaspor — 10">
+        <img src="assets/img/konya.jpg" alt="Konyaspor">
+        <div class="points">10</div>
+        <div class="bar"></div>
+      </div>
+
+      <div class="team" style="--points:10; --bar-color:#f1c40f" title="Antalyaspor — 10">
+        <img src="assets/img/antalyalogo.jpg" alt="Antalyaspor">
+        <div class="points">10</div>
+        <div class="bar"></div>
+      </div>
+
+      <div class="team" style="--points:9; --bar-color:#3498db" title="Alanyaspor — 9">
+        <img src="assets/img/alanyalogo.jpg" alt="Alanyaspor">
+        <div class="points">9</div>
+        <div class="bar"></div>
+      </div>
+
+      <div class="team" style="--points:8; --bar-color:#3498db" title="Kasımpaşa — 8">
+        <img src="assets/img/kasımpaşalogo.jpg" alt="Kasımpaşa">
+        <div class="points">8</div>
+        <div class="bar"></div>
+      </div>
+
+      <div class="team" style="--points:6; --bar-color:#e74c3c" title="Başakşehir — 6">
+        <img src="assets/img/başakşehirlogo.jpg" alt="Başakşehir">
+        <div class="points">6</div>
+        <div class="bar"></div>
+      </div>
+
+      <div class="team" style="--points:5; --bar-color:#c0392b" title="Rizespor — 5">
+        <img src="assets/img/rizelogo.jpg" alt="Çaykur Rizespor">
+        <div class="points">5</div>
+        <div class="bar"></div>
+      </div>
+
+      <div class="team" style="--points:5; --bar-color:#c0392b" title="Eyüpspor — 5">
+        <img src="assets/img/eyüplogo.jpg" alt="Eyüpspor">
+        <div class="points">5</div>
+        <div class="bar"></div>
+      </div>
+
+      <div class="team" style="--points:5; --bar-color:#e67e22" title="Kayserispor — 5">
+        <img src="assets/img/kayserilogo.jpg" alt="Kayserispor">
+        <div class="points">5</div>
+        <div class="bar"></div>
+      </div>
+
+      <div class="team" style="--points:4; --bar-color:#e74c3c" title="Gençlerbirliği — 4">
+        <img src="assets/img/gençlerbirliğilogo.jpg" alt="Gençlerbirliği">
+        <div class="points">4</div>
+        <div class="bar"></div>
+      </div>
+
+      <div class="team" style="--points:3; --bar-color:#c0392b" title="Fatih Karagümrük — 3">
+        <img src="assets/img/karagümrük.jpg" alt="FKG">
+        <div class="points">3</div>
+        <div class="bar"></div>
+      </div>
+
+      <div class="team" style="--points:2; --bar-color:#c0392b" title="Kocaelispor — 2">
+        <img src="assets/img/kocaelisporlogo.jpg" alt="Kocaelispor">
+        <div class="points">2</div>
+        <div class="bar"></div>
+      </div>
+
+    </div>
+  </div>
+</div>
+
+
+
+    
         <!-- Hakkında Bölümü -->
     <section id="hakkında" class="about section light-background">
 
@@ -930,12 +1100,14 @@ if($_SERVER["REQUEST_METHOD"] == "POST"){
     </section><!-- /İletişim Bölümü -->
 
   </main>
+  
 
   <footer id="footer" class="footer">
   <div class="container text-center">
     <p>&copy; 2025 Futbol Haberleri. Tüm hakları saklıdır.</p>
   </div>
 </footer>
+   
 
   <!-- Yukarıya Kaydır -->
   <a href="#" id="scroll-top" class="scroll-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a>
@@ -1014,6 +1186,47 @@ if($_SERVER["REQUEST_METHOD"] == "POST"){
 .row-form .form-group {
   flex: 1;
 }
+ 
+
+.standings-wrap {
+  overflow-x: auto;
+  padding: 10px 0;
+}
+
+.standings {
+  display: flex;
+  gap: 1rem;
+  align-items: flex-end;
+  flex-wrap: nowrap;
+}
+
+.team {
+  flex: 0 0 85px;
+  text-align: center;
+  font-family: "Poppins", Arial, sans-serif;
+}
+
+<!-- ✅ CSS - TÜM LOGOLAR EŞİT VE HİZALI -->
+<style>
+  .standings-wrap {
+    overflow-x: auto;
+    padding: 12px 0;
+  }
+
+  .standings {
+    display: flex;
+    gap: 1.5rem;
+    align-items: flex-end;
+    flex-wrap: nowrap;
+  }
+
+  .team {
+    flex: 0 0 90px;
+    text-align: center;
+    font-family: "Poppins", Arial, sans-serif;
+  }
+
+
 
 </body>
 
