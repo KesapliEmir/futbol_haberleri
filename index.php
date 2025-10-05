@@ -83,7 +83,7 @@
     <div class="carousel-container">
       <h2><span>Derbi Heyecanı İstanbul'u sardı</span> Taraftarlar biletleri günler öncesinden tüketti.</h2>
       <p>
-        Bu hafta oynanacak dev derbi Galatasaray-Fenerbahçe mücadelesi öncesi şehirde büyük bir hareketlilik vardı. Taraftarlar, maç biletlerini günler öncesinden tüketirken, güvenlik önlemleri ve trafik düzenlemeleri de yoğunlaştı. Teknik direktörlerin kadro tercihleri ve stratejileri maç öncesi merak konusu olurken, futbolseverler derbinin keyfini şimdiden yaşamaya başladı. Basın mensupları ve spor yorumcuları da karşılaşmayı yakından takip ediyor.
+        Bu hafta oynanacak dev derbi Galatasaray-Beşiktaş mücadelesi öncesi şehirde büyük bir hareketlilik vardı. Taraftarlar, maç biletlerini günler öncesinden tüketirken, güvenlik önlemleri ve trafik düzenlemeleri de yoğunlaştı. Teknik direktörlerin kadro tercihleri ve stratejileri maç öncesi merak konusu olurken, futbolseverler derbinin keyfini şimdiden yaşamaya başladı. Basın mensupları ve spor yorumcuları da karşılaşmayı yakından takip ediyor.
       </p>
     </div>
   </div><!-- Döngü Sonu Öğesi-->
@@ -147,6 +147,21 @@
       </p>
     </div>
   </div><!-- Döngü Sonu Öğesi-->
+
+  <div class="carousel-item">
+  <img src="assets/img/ts-fbmaçönü.jpg" alt="">
+  <div class="carousel-container">
+    <h2><span>Trabzon'da </span> Derbi Heyecanı</h2>
+    <p>
+      Şenol Güneş Spor Kompleksi’nde oynanan dev mücadelede Trabzonspor ile Fenerbahçe 1-1 berabere kaldı. 
+      Karadeniz ekibi ilk yarıda tempoyu yüksek tutarak etkili bir oyun sergiledi ve öne geçti. 
+      İkinci yarıda oyunun kontrolünü eline alan Fenerbahçe, son dakikalarda bulduğu golle skoru eşitledi. 
+      Tribünlerde müthiş bir atmosfer yaşanırken, iki takım da galibiyet için sahada büyük mücadele verdi. 
+      Bu sonuçla Fenerbahçe zirve yarışında bir puan kaybederken, Trabzonspor da sahasında üç puanı kaçırdı.
+    </p>
+  </div>
+</div><!-- Döngü Sonu Öğesi -->
+
 
   <div class="carousel-item">
     <img src="assets/img/dortmund.jpg" alt="">
@@ -334,29 +349,30 @@
           </script>
           <div class="swiper-wrapper">
 
-            <div class="swiper-slide">
-              <div class="row gy-4 event-item">
-                <div class="col-lg-6">
-                  <img src="assets/img/fenerbahçe-galatasaray.png" class="img-fluid" alt="">
-                </div>
-                <div class="col-lg-6 pt-4 pt-lg-0 content">
-                  <h3>Süper Lig’de Derbi Coşkusu</h3>
-                  <div class="price">
-                  </div>
-                  <p class="fst-italic">
-                    Haftanın en büyük mücadelesi nefesleri kesti, tribünler doldu taştı.
-                  </p>
-                  <ul>
-                    <li><i class="bi bi-check2-circle"></i> <span>Galatasaray ile Fenerbahçe arasındaki derbi büyük heyecana sahne oldu.</span></li>
-                    <li><i class="bi bi-check2-circle"></i> <span>Taraftarlar 90 dakika boyunca takımlarına destek verdi..</span></li>
-                    <li><i class="bi bi-check2-circle"></i> <span>Maçın son dakikasında gelen gol, sezonun en çok konuşulan anı oldu..</span></li>
-                  </ul>
-                  <p>
-                    Süper Lig’de bu sezon rekabet her zamankinden daha yüksek. Zirve yarışı kızışırken, futbolseverler her hafta unutulmaz anlara tanıklık ediyor. Derbiler ise hem saha içinde hem de saha dışında gündemi belirliyor.
-                  </p>
-                </div>
-              </div>
-            </div><!-- Kaydırıcıyı Sonlandır öğesi-->
+            <div class="swiper-slide"> 
+  <div class="row gy-4 event-item">
+    <div class="col-lg-6">
+      <img src="assets/img/gs-bjkmaç.jpg" class="img-fluid" alt="">
+    </div>
+    <div class="col-lg-6 pt-4 pt-lg-0 content">
+      <h3>Galatasaray - Beşiktaş Derbisinde Nefesler Tutuldu!</h3>
+      <div class="price"></div>
+      <p class="fst-italic">
+        Süper Lig’in dev maçında heyecan doruktaydı, iki ezeli rakip sahada her şeyini ortaya koydu.
+      </p>
+      <ul>
+        <li><i class="bi bi-check2-circle"></i> <span>İlk yarıda Beşiktaş oyuna hakim olurken birçok pozisyon buldu.</span></li>
+        <li><i class="bi bi-check2-circle"></i> <span>Galatasaray ikinci yarıda baskıyı artırarak dengeyi sağladı.</span></li>
+        <li><i class="bi bi-check2-circle"></i> <span>Maçın son anlarında iki taraf da galibiyet golü için yüklendi, ancak skor 1-1’de kaldı.</span></li>
+      </ul>
+      <p>
+        Derbi sonrası sosyal medya adeta karıştı. Taraftarlar hem performansları hem de hakem kararlarını tartıştı. 
+        Yorgun olmasına rağmen Galatasaray pes etmezken, Beşiktaş’ın ilk yarıdaki üstün oyunu alkış topladı. 
+        Bu sonuçla iki takım da zirve yarışında kritik bir puanı paylaştı.
+      </p>
+    </div>
+  </div>
+</div><!-- Kaydırıcıyı Sonlandır öğesi -->
 
             <div class="swiper-slide">
               <div class="row gy-4 event-item">
@@ -381,29 +397,30 @@
               </div>
             </div><!-- Kaydırıcıyı Sonlandır öğesi -->
 
-            <div class="swiper-slide">
-              <div class="row gy-4 event-item">
-                <div class="col-lg-6">
-                  <img src="assets/img/beşiktaş-trabzon-tribün.png" class="img-fluid" alt="">
-                </div>
-                <div class="col-lg-6 pt-4 pt-lg-0 content">
-                  <h3>Derbide Tribünler Alev Aldı!</h3>
-                  <div class="price">
-                  </div>
-                  <p class="fst-italic">
-                    Beşiktaş ile Trabzonspor arasındaki büyük mücadelede sahada kıyasıya rekabet yaşanırken, tribünlerde görsel şölen vardı.
-                  </p>
-                  <ul>
-                    <li><i class="bi bi-check2-circle"></i> <span>Taraftarlar meşalelerle takımlarına destek verdi.</span></li>
-                    <li><i class="bi bi-check2-circle"></i> <span>90 dakika boyunca susmayan tribünler maça ayrı bir heyecan kattı.</span></li>
-                    <li><i class="bi bi-check2-circle"></i> <span>Derbi tansiyonu, sahada olduğu kadar tribünlerde de hissedildi.</span></li>
-                  </ul>
-                  <p>
-                    Beşiktaş ve Trabzonspor’un karşılaşmaları her zaman unutulmaz olur. Bu derbi de hem futbolcuların hırsı hem de taraftarların coşkusuyla Süper Lig tarihine geçti.
-                  </p>
-                </div>
-              </div>
-            </div><!-- Kaydırıcıyı Sonlandır öğesi -->
+            <div class="swiper-slide"> 
+  <div class="row gy-4 event-item">
+    <div class="col-lg-6">
+      <img src="assets/img/fb-tsmaç.jpg" class="img-fluid" alt="">
+    </div>
+    <div class="col-lg-6 pt-4 pt-lg-0 content">
+      <h3>Fenerbahçe - Trabzonspor Mücadelesinde Kazanan Yok!</h3>
+      <div class="price"></div>
+      <p class="fst-italic">
+        Kadıköy’deki mücadele yüksek tempoda geçti, iki takım da galibiyet için sahaya çıktı.
+      </p>
+      <ul>
+        <li><i class="bi bi-check2-circle"></i> <span>Fenerbahçe ilk yarıda pozisyon üstünlüğünü elinde tuttu.</span></li>
+        <li><i class="bi bi-check2-circle"></i> <span>Trabzonspor ikinci yarıda hızlı ataklarla etkili oldu ve öne geçti.</span></li>
+        <li><i class="bi bi-check2-circle"></i> <span>Maçın son dakikalarında Fenerbahçe penaltıdan beraberliği yakaladı, skor 1-1.</span></li>
+      </ul>
+      <p>
+        Tribünler doluydu, atmosfer büyüleyiciydi. Her iki takımın da mücadelesi alkış toplarken, 
+        taraftarlar son düdüğe kadar nefeslerini tuttu. Beraberlik iki taraf için de hayal kırıklığı yaratmasa da, 
+        zirve yarışında kaybedilen iki puan olarak değerlendirildi.
+      </p>
+    </div>
+  </div>
+</div><!-- Kaydırıcıyı Sonlandır öğesi -->
 
             <div class="swiper-slide">
               <div class="row gy-4 event-item">
@@ -565,20 +582,22 @@
 <div class="tab-pane" id="specials-tab-2">
   <div class="row mb-3">
     <div class="col-8 col-md-9">
-      <h5>Galatasaray-Fenerbahçe</h5>
+      <h5>Galatasaray 1-1 Beşiktaş</h5>
       <p class="small text-muted">
-        Cimbom son dakikada kazandı. Derbi boyunca heyecan doruktaydı, Galatasaray taraftarları tribünleri doldurdu ve maçın kritik anlarında baskıyı artırdı. Maçın son dakikalarında gelen gol, Fenerbahçe savunmasını zorladı ve Galatasaray sahadan üç puanla ayrıldı. Teknik direktörlerin maç sonu açıklamaları ve analizleri sosyal medyada gündem oldu. Bu galibiyet, Galatasaray’ın şampiyonluk yarışındaki konumunu güçlendirdi ve taraftarlar büyük sevinç yaşadı.
+        Derbi nefesleri kesti! İlk yarıda Beşiktaş oyunu kontrol eden taraftı ve rakip kalede etkili ataklar geliştirdi. Galatasaray ise ikinci yarıda tempo artırarak oyuna ortak oldu. Yorgun görünmesine rağmen Cimbom pes etmedi ve son dakikalarda bulduğu golle beraberliği yakaladı. İki takım da galibiyet için bastırsa da maç 1-1 sonuçlandı. Taraftarlar maç sonrası sosyal medyada hem mücadeleyi hem de hakem kararlarını uzun süre tartıştı.
       </p>
     </div>
   </div>
+
   <div class="row mb-3">
     <div class="col-8 col-md-9">
-      <h5>Trabzonspor 0-2 Beşiktaş</h5>
+      <h5>Fenerbahçe 1-1 Trabzonspor</h5>
       <p class="small text-muted">
-        Kartal, dış sahada gövde gösterisi yaptı. Maç boyunca güçlü bir pres ve hızlı kontra ataklarla Trabzonspor’a geçit vermeyen Beşiktaş, ikinci yarıda gelen gollerle farkı açtı. Taraftarlar deplasmanda da takımı destekledi, oyuncuların performansı teknik ekipten tam not aldı. Trabzonspor ise kaybı kritik olarak değerlendiriyor ve bir sonraki maç için strateji değiştirmek zorunda kaldı. Bu sonuç, Beşiktaş’ın liderlik mücadelesini güçlendirdi.
+        Kadıköy’de zorlu bir mücadele yaşandı. Fenerbahçe ilk yarıda baskılı oynasa da Trabzonspor savunmada dirençli kaldı. İkinci yarıda Trabzonspor kontra ataklarla tehlikeler yarattı ve öne geçti. Ancak Fenerbahçe son bölümlerde penaltıdan bulduğu golle skoru eşitledi. Maç genelinde tempolu bir oyun sergilendi, iki takım da pozisyon üretmekte zorlanmadı. Beraberlik iki taraf için de kayıp sayılmasa da, taraftarlar galibiyetin kaçtığı görüşünde birleşti.
       </p>
     </div>
   </div>
+
   <div class="row mb-3">
     <div class="col-8 col-md-9">
       <h5>Alanya 0-3 Antalyaspor</h5>
@@ -683,30 +702,31 @@
           <div class="swiper-wrapper">
 
             <div class="swiper-slide">
+<div class="testimonial-item"> 
+  <img src="assets/img/gslogo.png" class="testimonial-img" alt="">
+  <h3>Galatasaray</h3>
+  <h4>Beşiktaş Maçı Yorumu</h4>
+  <p>
+    <i class="bi bi-quote quote-icon-left"></i>
+    <span>Dün oynanan Galatasaray - Beşiktaş derbisi 1-1 sona erdi. İlk yarıda Beşiktaş oyunu domine etti ve öne geçmeyi başardı. Galatasaray ise yorgun olmasına rağmen ikinci yarıda baskıyı artırdı ve skoru dengeledi. Son yarım saatte Beşiktaş savunmada zor anlar yaşarken, Galatasaray pes etmeden mücadele etti. Taraftarlar maçın temposundan memnun kalırken, iki takımın da mücadele gücü alkış aldı.</span>
+    <i class="bi bi-quote quote-icon-right"></i>
+  </p>
+</div>
+</div><!--Son referans öğesi-->
+
+<div class="swiper-slide">
   <div class="testimonial-item">
-    <img src="assets/img/gslogo.png" class="testimonial-img" alt="">
-    <h3>Galatasaray</h3>
-    <h4>Fenerbahçe Maçı Yorumu</h4>
+    <img src="assets/img/fenerbahçelogo.jpg" class="testimonial-img" alt="">
+    <h3>Fenerbahçe</h3>
+    <h4>Trabzonspor Maçı Yorumu</h4>
     <p>
       <i class="bi bi-quote quote-icon-left"></i>
-      <span>Galatasaray-Fenerbahçe derbisinde Cimbom son dakikada galibiyet elde etti. Maç boyunca heyecan doruktaydı, taraftarlar tribünleri doldurdu ve maçın kritik anlarında baskıyı artırdı. Son dakikada gelen gol, Fenerbahçe savunmasını zorladı ve Galatasaray sahadan 3 puanla ayrıldı. Teknik direktörler maç sonrası analizlerde bulundu, sosyal medyada maçın değerlendirmeleri gündem oldu. Bu galibiyet, Galatasaray’ın şampiyonluk yarışındaki konumunu güçlendirdi ve taraftarlar büyük sevinç yaşadı.</span>
+      <span>Fenerbahçe - Trabzonspor karşılaşması büyük çekişmeye sahne oldu. İlk yarıda Trabzonspor daha etkili oynasa da Fenerbahçe ikinci yarıda dengeyi sağladı. Maç boyunca iki takım da pozisyonlar buldu ancak kalecilerin başarılı performansı skoru belirledi. Karşılaşma 1-1 sona ererken, Fenerbahçe liderliğini sürdürdü, Trabzonspor ise deplasmandan önemli bir puanla ayrıldı.</span>
       <i class="bi bi-quote quote-icon-right"></i>
     </p>
   </div>
 </div><!--Son referans öğesi-->
 
-<div class="swiper-slide">
-  <div class="testimonial-item">
-    <img src="assets/img/bjklogo.jpg" class="testimonial-img" alt="">
-    <h3>Beşiktaş</h3>
-    <h4>Trabzonspor 0-2 Maçı Yorumu</h4>
-    <p>
-      <i class="bi bi-quote quote-icon-left"></i>
-      <span>Trabzonspor deplasmanında Beşiktaş, güçlü bir pres ve hızlı kontra ataklarla rakibine geçit vermedi. İkinci yarıda gelen gollerle farkı açan Kartal, deplasmanda da taraftarlarını memnun etti. Oyuncuların performansı teknik ekipten tam not aldı. Trabzonspor kaybı kritik olarak değerlendiriyor ve bir sonraki maç için strateji değiştirmek zorunda kaldı. Bu sonuç, Beşiktaş’ın liderlik mücadelesini güçlendirdi ve sosyal medyada taraftarlar tarafından yoğun şekilde yorumlandı.</span>
-      <i class="bi bi-quote quote-icon-right"></i>
-    </p>
-  </div>
-</div><!--Son referans öğesi-->
 
 <div class="swiper-slide">
   <div class="testimonial-item">
@@ -878,19 +898,19 @@
 
       <div class="team" style="--points:21; --bar-color:#f1c40f" title="Galatasaray — 21">
         <img src="assets/img/gslogo.png" alt="Galatasaray">
-        <div class="points">21</div>
+        <div class="points">22</div>
+        <div class="bar"></div>
+      </div>
+
+            <div class="team" style="--points:14; --bar-color:#2ecc71" title="Trabzonspor — 14">
+        <img src="assets/img/trabzonlogo.jpg" alt="Trabzonspor">
+        <div class="points">17</div>
         <div class="bar"></div>
       </div>
 
       <div class="team" style="--points:15; --bar-color:#3498db" title="Fenerbahçe — 15">
         <img src="assets/img/fenerbahçelogo.jpg" alt="Fenerbahçe">
         <div class="points">15</div>
-        <div class="bar"></div>
-      </div>
-
-      <div class="team" style="--points:14; --bar-color:#2ecc71" title="Trabzonspor — 14">
-        <img src="assets/img/trabzonlogo.jpg" alt="Trabzonspor">
-        <div class="points">14</div>
         <div class="bar"></div>
       </div>
 
@@ -902,7 +922,7 @@
 
       <div class="team" style="--points:12; --bar-color:#e67e22" title="Beşiktaş — 12">
         <img src="assets/img/bjklogoo.jpg" alt="Beşiktaş">
-        <div class="points">12</div>
+        <div class="points">13</div>
         <div class="bar"></div>
       </div>
 
@@ -932,12 +952,18 @@
 
       <div class="team" style="--points:9; --bar-color:#3498db" title="Alanyaspor — 9">
         <img src="assets/img/alanyalogo.jpg" alt="Alanyaspor">
-        <div class="points">9</div>
+        <div class="points">10</div>
         <div class="bar"></div>
       </div>
 
       <div class="team" style="--points:8; --bar-color:#3498db" title="Kasımpaşa — 8">
         <img src="assets/img/kasımpaşalogo.jpg" alt="Kasımpaşa">
+        <div class="points">8</div>
+        <div class="bar"></div>
+      </div>
+
+        <div class="team" style="--points:5; --bar-color:#c0392b" title="Rizespor — 5">
+        <img src="assets/img/rizelogo.jpg" alt="Çaykur Rizespor">
         <div class="points">8</div>
         <div class="bar"></div>
       </div>
@@ -948,11 +974,18 @@
         <div class="bar"></div>
       </div>
 
-      <div class="team" style="--points:5; --bar-color:#c0392b" title="Rizespor — 5">
-        <img src="assets/img/rizelogo.jpg" alt="Çaykur Rizespor">
+            <div class="team" style="--points:4; --bar-color:#e74c3c" title="Gençlerbirliği — 4">
+        <img src="assets/img/gençlerbirliğilogo.jpg" alt="Gençlerbirliği">
         <div class="points">5</div>
         <div class="bar"></div>
       </div>
+
+            <div class="team" style="--points:2; --bar-color:#c0392b" title="Kocaelispor — 2">
+        <img src="assets/img/kocaelisporlogo.jpg" alt="Kocaelispor">
+        <div class="points">5</div>
+        <div class="bar"></div>
+      </div>
+
 
       <div class="team" style="--points:5; --bar-color:#c0392b" title="Eyüpspor — 5">
         <img src="assets/img/eyüplogo.jpg" alt="Eyüpspor">
@@ -966,21 +999,9 @@
         <div class="bar"></div>
       </div>
 
-      <div class="team" style="--points:4; --bar-color:#e74c3c" title="Gençlerbirliği — 4">
-        <img src="assets/img/gençlerbirliğilogo.jpg" alt="Gençlerbirliği">
-        <div class="points">4</div>
-        <div class="bar"></div>
-      </div>
-
       <div class="team" style="--points:3; --bar-color:#c0392b" title="Fatih Karagümrük — 3">
         <img src="assets/img/karagümrük.jpg" alt="FKG">
         <div class="points">3</div>
-        <div class="bar"></div>
-      </div>
-
-      <div class="team" style="--points:2; --bar-color:#c0392b" title="Kocaelispor — 2">
-        <img src="assets/img/kocaelisporlogo.jpg" alt="Kocaelispor">
-        <div class="points">2</div>
         <div class="bar"></div>
       </div>
 
