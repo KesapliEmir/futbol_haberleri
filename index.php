@@ -350,29 +350,29 @@
           <div class="swiper-wrapper">
 
             <div class="swiper-slide"> 
-  <div class="row gy-4 event-item">
-    <div class="col-lg-6">
-      <img src="assets/img/gs-bjkmaç.jpg" class="img-fluid" alt="">
-    </div>
-    <div class="col-lg-6 pt-4 pt-lg-0 content">
-      <h3>Galatasaray - Beşiktaş Derbisinde Nefesler Tutuldu!</h3>
-      <div class="price"></div>
-      <p class="fst-italic">
-        Süper Lig’in dev maçında heyecan doruktaydı, iki ezeli rakip sahada her şeyini ortaya koydu.
-      </p>
-      <ul>
-        <li><i class="bi bi-check2-circle"></i> <span>İlk yarıda Beşiktaş oyuna hakim olurken birçok pozisyon buldu.</span></li>
-        <li><i class="bi bi-check2-circle"></i> <span>Galatasaray ikinci yarıda baskıyı artırarak dengeyi sağladı.</span></li>
-        <li><i class="bi bi-check2-circle"></i> <span>Maçın son anlarında iki taraf da galibiyet golü için yüklendi, ancak skor 1-1’de kaldı.</span></li>
-      </ul>
-      <p>
-        Derbi sonrası sosyal medya adeta karıştı. Taraftarlar hem performansları hem de hakem kararlarını tartıştı. 
-        Yorgun olmasına rağmen Galatasaray pes etmezken, Beşiktaş’ın ilk yarıdaki üstün oyunu alkış topladı. 
-        Bu sonuçla iki takım da zirve yarışında kritik bir puanı paylaştı.
-      </p>
-    </div>
-  </div>
-</div><!-- Kaydırıcıyı Sonlandır öğesi -->
+             <div class="row gy-4 event-item">
+               <div class="col-lg-6">
+                <img src="assets/img/gs-bjkmaç.jpg" class="img-fluid" alt="">
+               </div>
+               <div class="col-lg-6 pt-4 pt-lg-0 content">
+                <h3>Galatasaray - Beşiktaş Derbisinde Nefesler Tutuldu!</h3>
+                <div class="price"></div>
+                <p class="fst-italic">
+                  Süper Lig’in dev maçında heyecan doruktaydı, iki ezeli rakip sahada her şeyini ortaya koydu.
+                </p>
+                <ul>
+                  <li><i class="bi bi-check2-circle"></i> <span>İlk yarıda Beşiktaş oyuna hakim olurken birçok pozisyon buldu.</span></li>
+                  <li><i class="bi bi-check2-circle"></i> <span>Galatasaray ikinci yarıda baskıyı artırarak dengeyi sağladı.</span></li>
+                  <li><i class="bi bi-check2-circle"></i> <span>Maçın son anlarında iki taraf da galibiyet golü için yüklendi, ancak skor 1-1’de kaldı.</span></li>
+                </ul>
+                 <p>
+                  Derbi sonrası sosyal medya adeta karıştı. Taraftarlar hem performansları hem de hakem kararlarını tartıştı. 
+                  Yorgun olmasına rağmen Galatasaray pes etmezken, Beşiktaş’ın ilk yarıdaki üstün oyunu alkış topladı. 
+                  Bu sonuçla iki takım da zirve yarışında kritik bir puanı paylaştı.
+                </p>
+               </div>
+              </div>
+             </div><!-- Kaydırıcıyı Sonlandır öğesi -->
 
             <div class="swiper-slide">
               <div class="row gy-4 event-item">
@@ -393,34 +393,35 @@
                  </ul>
                   <p>
                     Diego Simeone’nin öğrencileri, maçın son dakikalarına kadar mücadeleden kopmadı. Atletico, bu sonuçla ligde üst sıralardan uzaklaşmak istemediğini gösterdi.
+                  </p>
                 </div>
               </div>
             </div><!-- Kaydırıcıyı Sonlandır öğesi -->
 
             <div class="swiper-slide"> 
-  <div class="row gy-4 event-item">
-    <div class="col-lg-6">
-      <img src="assets/img/fb-tsmaç.jpg" class="img-fluid" alt="">
-    </div>
-    <div class="col-lg-6 pt-4 pt-lg-0 content">
-      <h3>Fenerbahçe - Trabzonspor Mücadelesinde Kazanan Yok!</h3>
-      <div class="price"></div>
-      <p class="fst-italic">
-        Kadıköy’deki mücadele yüksek tempoda geçti, iki takım da galibiyet için sahaya çıktı.
-      </p>
-      <ul>
-        <li><i class="bi bi-check2-circle"></i> <span>Fenerbahçe ilk yarıda pozisyon üstünlüğünü elinde tuttu.</span></li>
-        <li><i class="bi bi-check2-circle"></i> <span>Trabzonspor ikinci yarıda hızlı ataklarla etkili oldu ve öne geçti.</span></li>
-        <li><i class="bi bi-check2-circle"></i> <span>Maçın son dakikalarında Fenerbahçe penaltıdan beraberliği yakaladı, skor 1-1.</span></li>
-      </ul>
-      <p>
-        Tribünler doluydu, atmosfer büyüleyiciydi. Her iki takımın da mücadelesi alkış toplarken, 
-        taraftarlar son düdüğe kadar nefeslerini tuttu. Beraberlik iki taraf için de hayal kırıklığı yaratmasa da, 
-        zirve yarışında kaybedilen iki puan olarak değerlendirildi.
-      </p>
-    </div>
-  </div>
-</div><!-- Kaydırıcıyı Sonlandır öğesi -->
+              <div class="row gy-4 event-item">
+               <div class="col-lg-6">
+                <img src="assets/img/fb-tsmaç.jpg" class="img-fluid" alt="">
+               </div>
+               <div class="col-lg-6 pt-4 pt-lg-0 content">
+                 <h3>Fenerbahçe - Trabzonspor Mücadelesinde Kazanan Yok!</h3>
+                 <div class="price"></div>
+                 <p class="fst-italic">
+                  Kadıköy’deki mücadele yüksek tempoda geçti, iki takım da galibiyet için sahaya çıktı.
+                 </p>
+                 <ul>
+                  <li><i class="bi bi-check2-circle"></i> <span>Fenerbahçe ilk yarıda pozisyon üstünlüğünü elinde tuttu.</span></li>
+                  <li><i class="bi bi-check2-circle"></i> <span>Trabzonspor ikinci yarıda hızlı ataklarla etkili oldu ve öne geçti.</span></li>
+                  <li><i class="bi bi-check2-circle"></i> <span>Maçın son dakikalarında Fenerbahçe penaltıdan beraberliği yakaladı, skor 1-1.</span></li>
+                 </ul>
+                 <p>
+                   Tribünler doluydu, atmosfer büyüleyiciydi. Her iki takımın da mücadelesi alkış toplarken, 
+                   taraftarlar son düdüğe kadar nefeslerini tuttu. Beraberlik iki taraf için de hayal kırıklığı yaratmasa da, 
+                   zirve yarışında kaybedilen iki puan olarak değerlendirildi.
+                 </p>
+               </div>
+             </div>
+            </div><!-- Kaydırıcıyı Sonlandır öğesi -->
 
             <div class="swiper-slide">
               <div class="row gy-4 event-item">
@@ -701,45 +702,45 @@
           </script>
           <div class="swiper-wrapper">
 
+               <div class="swiper-slide">
+                <div class="testimonial-item"> 
+                 <img src="assets/img/gslogo.png" class="testimonial-img" alt="">
+                 <h3>Galatasaray</h3>
+                 <h4>Beşiktaş Maçı Yorumu</h4>
+                 <p>
+                  <i class="bi bi-quote quote-icon-left"></i>
+                  <span>Dün oynanan Galatasaray - Beşiktaş derbisi 1-1 sona erdi. İlk yarıda Beşiktaş oyunu domine etti ve öne geçmeyi başardı. Galatasaray ise yorgun olmasına rağmen ikinci yarıda baskıyı artırdı ve skoru dengeledi. Son yarım saatte Beşiktaş savunmada zor anlar yaşarken, Galatasaray pes etmeden mücadele etti. Taraftarlar maçın temposundan memnun kalırken, iki takımın da mücadele gücü alkış aldı.</span>
+                  <i class="bi bi-quote quote-icon-right"></i>
+                 </p>
+                </div>
+                </div><!--Son referans öğesi-->
+
+              <div class="swiper-slide">
+                <div class="testimonial-item">
+                 <img src="assets/img/fenerbahçelogo.jpg" class="testimonial-img" alt="">
+                 <h3>Fenerbahçe</h3>
+                 <h4>Trabzonspor Maçı Yorumu</h4>
+                 <p>
+                  <i class="bi bi-quote quote-icon-left"></i>
+                  <span>Fenerbahçe - Trabzonspor karşılaşması büyük çekişmeye sahne oldu. İlk yarıda Trabzonspor daha etkili oynasa da Fenerbahçe ikinci yarıda dengeyi sağladı. Maç boyunca iki takım da pozisyonlar buldu ancak kalecilerin başarılı performansı skoru belirledi. Karşılaşma 1-1 sona ererken, Fenerbahçe liderliğini sürdürdü, Trabzonspor ise deplasmandan önemli bir puanla ayrıldı.</span>
+                  <i class="bi bi-quote quote-icon-right"></i>
+                  </p>
+                </div>
+               </div><!--Son referans öğesi-->
+
+
             <div class="swiper-slide">
-<div class="testimonial-item"> 
-  <img src="assets/img/gslogo.png" class="testimonial-img" alt="">
-  <h3>Galatasaray</h3>
-  <h4>Beşiktaş Maçı Yorumu</h4>
-  <p>
-    <i class="bi bi-quote quote-icon-left"></i>
-    <span>Dün oynanan Galatasaray - Beşiktaş derbisi 1-1 sona erdi. İlk yarıda Beşiktaş oyunu domine etti ve öne geçmeyi başardı. Galatasaray ise yorgun olmasına rağmen ikinci yarıda baskıyı artırdı ve skoru dengeledi. Son yarım saatte Beşiktaş savunmada zor anlar yaşarken, Galatasaray pes etmeden mücadele etti. Taraftarlar maçın temposundan memnun kalırken, iki takımın da mücadele gücü alkış aldı.</span>
-    <i class="bi bi-quote quote-icon-right"></i>
-  </p>
-</div>
-</div><!--Son referans öğesi-->
-
-<div class="swiper-slide">
-  <div class="testimonial-item">
-    <img src="assets/img/fenerbahçelogo.jpg" class="testimonial-img" alt="">
-    <h3>Fenerbahçe</h3>
-    <h4>Trabzonspor Maçı Yorumu</h4>
-    <p>
-      <i class="bi bi-quote quote-icon-left"></i>
-      <span>Fenerbahçe - Trabzonspor karşılaşması büyük çekişmeye sahne oldu. İlk yarıda Trabzonspor daha etkili oynasa da Fenerbahçe ikinci yarıda dengeyi sağladı. Maç boyunca iki takım da pozisyonlar buldu ancak kalecilerin başarılı performansı skoru belirledi. Karşılaşma 1-1 sona ererken, Fenerbahçe liderliğini sürdürdü, Trabzonspor ise deplasmandan önemli bir puanla ayrıldı.</span>
-      <i class="bi bi-quote quote-icon-right"></i>
-    </p>
-  </div>
-</div><!--Son referans öğesi-->
-
-
-<div class="swiper-slide">
-  <div class="testimonial-item">
-    <img src="assets/img/antalyalogo.jpg" class="testimonial-img" alt="">
-    <h3>Antalyaspor</h3>
-    <h4>Alanya 0-3 Maçı Yorumu</h4>
-    <p>
-      <i class="bi bi-quote quote-icon-left"></i>
-      <span>Alanya deplasmanında Antalyaspor, ilk dakikadan itibaren oyunun kontrolünü eline aldı ve rakibine pozisyon vermedi. Maç boyunca sergilenen hızlı hücumlar ve etkili savunma, deplasmanda alınan 3-0’lık galibiyetin temelini oluşturdu. Teknik direktör maç sonrası oyuncularını övdü, takımın moralinin yüksek olduğunu ve ligde üst sıraları zorlayacaklarını belirtti. Taraftarlar sosyal medyada zaferi kutladı ve maçın öne çıkan anlarını paylaştı.</span>
-      <i class="bi bi-quote quote-icon-right"></i>
-    </p>
-  </div>
-</div><!--Son referans öğesi-->
+              <div class="testimonial-item">
+                <img src="assets/img/antalyalogo.jpg" class="testimonial-img" alt="">
+                <h3>Antalyaspor</h3>
+                <h4>Alanya 0-3 Maçı Yorumu</h4>
+                <p>
+                 <i class="bi bi-quote quote-icon-left"></i>
+                 <span>Alanya deplasmanında Antalyaspor, ilk dakikadan itibaren oyunun kontrolünü eline aldı ve rakibine pozisyon vermedi. Maç boyunca sergilenen hızlı hücumlar ve etkili savunma, deplasmanda alınan 3-0’lık galibiyetin temelini oluşturdu. Teknik direktör maç sonrası oyuncularını övdü, takımın moralinin yüksek olduğunu ve ligde üst sıraları zorlayacaklarını belirtti. Taraftarlar sosyal medyada zaferi kutladı ve maçın öne çıkan anlarını paylaştı.</span>
+                 <i class="bi bi-quote quote-icon-right"></i>
+                </p>
+              </div>
+             </div><!--Son referans öğesi-->
 
 
             <div class="swiper-slide">
@@ -782,56 +783,56 @@
             </div><!--Son referans öğesi -->
 
             <div class="swiper-slide">
-  <div class="testimonial-item">
-    <img src="assets/img/barcelonaa.png" class="testimonial-img" alt="">
-    <h3>Barcelona</h3>
-    <h4>El Clasico</h4>
-    <p>
-      <i class="bi bi-quote quote-icon-left"></i>
-      <span>Camp Nou’da oynanan dev maçta Barcelona, Real Madrid’i 2-1 mağlup ederek zirve yarışında kritik bir galibiyet aldı. Maç boyunca Barcelona’nın baskılı oyunu, taraftarları coşturdu. Real Madrid’in atakları karşısında savunmasını güçlendiren Katalan ekibi, ikinci yarıda gelen golle maçı kopardı ve büyük bir moral kazandı.</span>
-      <i class="bi bi-quote quote-icon-right"></i>
-    </p>
-  </div>
-</div><!--Son referans öğesi-->
+              <div class="testimonial-item">
+                <img src="assets/img/barcelonaa.png" class="testimonial-img" alt="">
+                <h3>Barcelona</h3>
+                <h4>El Clasico</h4>
+                <p>
+                  <i class="bi bi-quote quote-icon-left"></i>
+                  <span>Camp Nou’da oynanan dev maçta Barcelona, Real Madrid’i 2-1 mağlup ederek zirve yarışında kritik bir galibiyet aldı. Maç boyunca Barcelona’nın baskılı oyunu, taraftarları coşturdu. Real Madrid’in atakları karşısında savunmasını güçlendiren Katalan ekibi, ikinci yarıda gelen golle maçı kopardı ve büyük bir moral kazandı.</span>
+                  <i class="bi bi-quote quote-icon-right"></i>
+                </p>
+             </div>
+           </div><!--Son referans öğesi-->
 
-<div class="swiper-slide">
-  <div class="testimonial-item">
-    <img src="assets/img/parislogo.jpg" class="testimonial-img" alt="">
-    <h3>PSG</h3>
-    <h4>Bayern Münih Maçı</h4>
-    <p>
-      <i class="bi bi-quote quote-icon-left"></i>
-      <span>PSG ile Bayern Münih arasında oynanan Şampiyonlar Ligi çeyrek finali 4-4’lük skorla nefesleri kesti. Maç boyunca tempo hiç düşmedi, taraftarlar gol düellosunu heyecanla takip etti. Özellikle son dakikalarda yaşanan kritik pozisyonlar ve kalecilerin kurtarışları, karşılaşmayı unutulmaz kıldı. Her iki takım da mücadeleci oyunuyla Avrupa futbolunun gücünü gösterdi.</span>
-      <i class="bi bi-quote quote-icon-right"></i>
-    </p>
-  </div>
-</div><!--Son referans öğesi-->
+           <div class="swiper-slide">
+             <div class="testimonial-item">
+               <img src="assets/img/parislogo.jpg" class="testimonial-img" alt="">
+               <h3>PSG</h3>
+               <h4>Bayern Münih Maçı</h4>
+               <p>
+                <i class="bi bi-quote quote-icon-left"></i>
+                <span>PSG ile Bayern Münih arasında oynanan Şampiyonlar Ligi çeyrek finali 4-4’lük skorla nefesleri kesti. Maç boyunca tempo hiç düşmedi, taraftarlar gol düellosunu heyecanla takip etti. Özellikle son dakikalarda yaşanan kritik pozisyonlar ve kalecilerin kurtarışları, karşılaşmayı unutulmaz kıldı. Her iki takım da mücadeleci oyunuyla Avrupa futbolunun gücünü gösterdi.</span>
+                <i class="bi bi-quote quote-icon-right"></i>
+              </p>
+            </div>
+           </div><!--Son referans öğesi-->
 
-<div class="swiper-slide">
-  <div class="testimonial-item">
-    <img src="assets/img/juventuslogo.png" class="testimonial-img" alt="">
-    <h3>Juventus</h3>
-    <h4>İtalyan Derbisi</h4>
-    <p>
-      <i class="bi bi-quote quote-icon-left"></i>
-      <span>Juventus, Milan karşısında 1-0’lık skorla Serie A’da zirve yarışına ortak oldu. Maç boyunca Juventus’un disiplinli savunması ve hızlı kontra atakları öne çıktı. Taraftarlar tribünlerde coşku içinde maçı takip ederken, teknik ekip oyuncuların performansından memnun kaldı ve ligde üst sıralarda kalmayı hedefliyor.</span>
-      <i class="bi bi-quote quote-icon-right"></i>
-    </p>
-  </div>
-</div><!--Son referans öğesi-->
+          <div class="swiper-slide">
+           <div class="testimonial-item">
+            <img src="assets/img/juventuslogo.png" class="testimonial-img" alt="">
+            <h3>Juventus</h3>
+            <h4>İtalyan Derbisi</h4>
+            <p>
+             <i class="bi bi-quote quote-icon-left"></i>
+             <span>Juventus, Milan karşısında 1-0’lık skorla Serie A’da zirve yarışına ortak oldu. Maç boyunca Juventus’un disiplinli savunması ve hızlı kontra atakları öne çıktı. Taraftarlar tribünlerde coşku içinde maçı takip ederken, teknik ekip oyuncuların performansından memnun kaldı ve ligde üst sıralarda kalmayı hedefliyor.</span>
+             <i class="bi bi-quote quote-icon-right"></i>
+           </p>
+         </div>
+        </div><!--Son referans öğesi-->
 
-<div class="swiper-slide">
-  <div class="testimonial-item">
-    <img src="assets/img/arsenallogo.jpg" class="testimonial-img" alt="">
-    <h3>Arsenal</h3>
-    <h4>Manchester United Maçı</h4>
-    <p>
-      <i class="bi bi-quote quote-icon-left"></i>
-      <span>Emirates Stadyumu’nda oynanan zirve mücadelesinde Arsenal, Manchester United’i 3-2 mağlup etti. Maç boyunca sergilenen hızlı ataklar ve etkili pas oyunuyla taraftarları coşturan ev sahibi ekip, bu galibiyetle Premier Lig’de iddiasını sürdürdü. Teknik direktör maç sonrası oyuncularının performansını övdü ve ligdeki hedeflerine odaklanacaklarını belirtti.</span>
-      <i class="bi bi-quote quote-icon-right"></i>
-    </p>
-  </div>
-</div><!--Son referans öğesi-->
+          <div class="swiper-slide">
+           <div class="testimonial-item">
+            <img src="assets/img/arsenallogo.jpg" class="testimonial-img" alt="">
+            <h3>Arsenal</h3>
+            <h4>Manchester United Maçı</h4>
+            <p>
+             <i class="bi bi-quote quote-icon-left"></i>
+             <span>Emirates Stadyumu’nda oynanan zirve mücadelesinde Arsenal, Manchester United’i 3-2 mağlup etti. Maç boyunca sergilenen hızlı ataklar ve etkili pas oyunuyla taraftarları coşturan ev sahibi ekip, bu galibiyetle Premier Lig’de iddiasını sürdürdü. Teknik direktör maç sonrası oyuncularının performansını övdü ve ligdeki hedeflerine odaklanacaklarını belirtti.</span>
+             <i class="bi bi-quote quote-icon-right"></i>
+           </p>
+          </div>
+         </div><!--Son referans öğesi-->
 
 
           </div>
