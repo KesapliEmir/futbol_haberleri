@@ -1,5 +1,5 @@
 <?php
-// örnek: veritabanına bağlan
+//  veritabanına bağlan
 // $conn = mysqli_connect("localhost","root","","veritabani");
 ?>
 <!DOCTYPE html>
@@ -18,16 +18,7 @@
 
   <!-- CSS dosyaları -->
   <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
-  <link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
-  <link href="assets/vendor/aos/aos.css" rel="stylesheet">
-  <link href="assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
-  <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
-
-  <!-- Ana CSS Dosyası -->
-  <link href="assets/css/main.css" rel="stylesheet">
-
-
-</head>
+  <link href="assets/vendor/bootstrap-icons/bootstrap-icons
 
 <body class="index-page">
 
@@ -39,6 +30,15 @@
         </div>
       </div>
     </div>
+  <link href="assets/vendor/aos/aos.css" rel="stylesheet">
+  <link href="assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
+  <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
+
+  <!-- Ana CSS Dosyası -->
+  <link href="assets/css/main.css" rel="stylesheet">
+
+
+</head>
 
     <div class="branding d-flex align-items-cente">
 
@@ -49,19 +49,36 @@
           <h1 class="sitename">Futbol Haberleri</h1>
         </a>
 
-        <nav id="navmenu" class="navmenu">
-          <ul>
-            <li><a href="#anasayfa">Anasayfa</a></li>
-            <li><a href="#türkiyefutbolrehberi">Türkiye Futbol Rehberi</a></li>
-            <li><a href="#gununhaberleri">Günün Manşetleri</a></li>
-            <li><a href="#haberler">Haberler</a></li>
-            <li><a href="#gununyorumu">Günün Yorumu</a></li>
-            <li><a href="#hakkında">Hakkında</a></li>
-            </li>
-            <li><a href="#forum">Forum</a></li>
-          </ul>
-          <i class="mobile-nav-toggle d-xl-none bi bi-list"></i>
-        </nav>
+<?php
+// Oturumu başlat (gerekli)
+if (session_status() === PHP_SESSION_NONE) {
+    session_start();
+}
+?>
+
+<nav id="navmenu" class="navmenu"> 
+  <ul>
+    <li><a href="#anasayfa">Anasayfa</a></li>
+    <li><a href="#türkiyefutbolrehberi">Türkiye Futbol Rehberi</a></li>
+    <li><a href="#gununhaberleri">Günün Manşetleri</a></li>
+    <li><a href="#haberler">Haberler</a></li>
+    <li><a href="#gununyorumu">Günün Yorumu</a></li>
+    <li><a href="#hakkında">Hakkında</a></li>
+    <li><a href="#forum">Forum</a></li>
+
+    <?php if (isset($_SESSION['kullanici'])): ?>
+      <!-- Kullanıcı giriş yaptıysa çıkış linki -->
+      <li><a href="logout.php">Çıkış Yap (<?php echo htmlspecialchars($_SESSION['kullanici']); ?>)</a></li>
+    <?php else: ?>
+      <!-- Giriş yapılmadıysa giriş yap linki -->
+      <li><a href="login.php">Giriş Yap</a></li>
+    <?php endif; ?>
+  </ul>
+
+  <i class="mobile-nav-toggle d-xl-none bi bi-list"></i>
+</nav>
+
+
 
       </div>
 
@@ -1083,35 +1100,79 @@
 
           </div>
 <?php
-if($_SERVER["REQUEST_METHOD"] == "POST"){
-    $isim = $_POST["name"];
-    $mail = $_POST["email"];
-    echo "<p>Merhaba $isim, mesajınız alındı!</p>";
+if (session_status() == PHP_SESSION_NONE) {
+    session_start();
 }
+
+// Bu kısımda kullanıcı giriş yapmış mı kontrol ediyoruz
+$kullanici_giris_yapti_mi = isset($_SESSION['kullanici']);
 ?>
 
-          <div class="col-lg-8">
-            <form action="forms/contact.php" method="post" role="form" class="php-email-form">
-              <div class="row">
-                <div class="col-md-6 form-group">
-                  <input type="text" name="name" class="form-control" id="name" placeholder="Your Name" required="">
-                </div>
-                <div class="col-md-6 form-group mt-3 mt-md-0">
-                  <input type="email" class="form-control" name="email" id="email" placeholder="Your Email" required="">
-                </div>
-              </div>
-              <div class="form-group mt-3">
-                <input type="text" class="form-control" name="subject" id="subject" placeholder="Subject" required="">
-              </div>
-              <div class="form-group mt-3">
-                <textarea class="form-control" name="message" placeholder="Message" required=""></textarea>
-              </div>
-              <div class="my-3">
-                <div class="loading">Yükleniyor</div>
-                <div class="error-message"></div>
-                <div class="sent-message">Mesajınız Gönderildi Teşekkür Ederiz.</div>
-              </div>
-              <div class="text-center"><button type="submit">Gönder</button></div>
+<div class="col-lg-8">
+    <form action="forms/contact.php" method="post" role="form" class="php-email-form">
+
+        <div class="row">
+            <div class="col-md-6 form-group">
+                <input 
+                    type="text" 
+                    name="name" 
+                    class="form-control" 
+                    id="name" 
+                    placeholder="İsim" 
+                    required 
+                    <?php if(!$kullanici_giris_yapti_mi) echo "enabled"; ?>
+                >
+            </div>
+
+            <div class="col-md-6 form-group mt-3 mt-md-0">
+                <input 
+                    type="email" 
+                    class="form-control" 
+                    name="email" 
+                    id="email" 
+                    placeholder="Email" 
+                    required 
+                    <?php if(!$kullanici_giris_yapti_mi) echo "enabled"; ?>
+                >
+            </div>
+        </div>
+
+        <div class="form-group mt-3">
+            <input 
+                type="text" 
+                class="form-control" 
+                name="subject" 
+                id="subject" 
+                placeholder="Gönder" 
+                required 
+                <?php if(!$kullanici_giris_yapti_mi) echo "enabled"; ?>
+            >
+        </div>
+
+        <div class="form-group mt-3">
+            <textarea 
+                class="form-control" 
+                name="message" 
+                placeholder="Mesaj" 
+                required 
+                <?php if(!$kullanici_giris_yapti_mi) echo "enabled"; ?>
+            ></textarea>
+        </div>
+
+        <div class="my-3">
+            <div class="loading">Yükleniyor</div>
+            <div class="error-message"></div>
+            <div class="sent-message">Mesajınız Gönderildi Teşekkür Ederiz.</div>
+        </div>
+
+        <div class="text-center">
+            <button 
+                type="submit" 
+                <?php if(!$kullanici_giris_yapti_mi) echo "onclick=\"alert('Forumda paylaşım yapmak için lütfen giriş yapınız!'); return false;\""; ?>
+            >
+                Gönder
+            </button>
+        </div>
             </form>
           </div><!-- İletişim Formunu Sonlandır Bölümü-->
 
