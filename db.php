@@ -1,14 +1,12 @@
 <?php
-$servername = "localhost"; 
-$username   = "root";      // kendi MySQL kullanıcı adını yaz
-$password   = "";          // kendi MySQL şifreni yaz
-$dbname     = "futbol_haberleri";
+$servername = "localhost";
+$username = "root";
+$password = "";
+$database = "futbol_haberleri";
 
-// Bağlantı
-$conn = new mysqli($servername, $username, $password, $dbname);
+$conn = new mysqli($servername, $username, $password, $database);
 
-// Hata kontrol
 if ($conn->connect_error) {
-    die("Bağlantı hatası: " . $conn->connect_error);
+    die("Veritabanı bağlantı hatası: " . $conn->connect_error);
 }
 ?>
