@@ -1,59 +1,80 @@
 <?php
-if (session_status() === PHP_SESSION_NONE) {
-    session_start();
-}
-require 'db.php';  // bu satır yoksa tabloya bağlanamaz
+session_start();
+require 'db.php';
 
-if (isset($_POST['register'])) {
-    $username = trim($_POST['username']);
-    $email    = trim($_POST['email']);
-    $password = trim($_POST['password']);
-    $password_hash = password_hash($password, PASSWORD_DEFAULT);
+$error = '';
+$success = '';
 
-    // Email kontrolü
-    $check = $conn->prepare("SELECT * FROM users WHERE email = ?");
-    $check->bind_param("s", $email);
-    $check->execute();
-    $result = $check->get_result();
+if(isset($_POST['register'])) {
+    $isim = trim($_POST['isim']);
+    $mail_input = trim($_POST['mail']);
+    $sifre = trim($_POST['sifre']);
+    $sifre_tekrar = trim($_POST['sifre_tekrar']);
 
-    if ($result->num_rows > 0) {
-        $error = "Bu email zaten kayıtlı!";
+    // Maili otomatik olarak @gmail.com ekle
+    $mail = $mail_input . "@gmail.com";
+
+    // Şifre kontrolü: en az bir '.' veya '_' olmalı
+    if(empty($isim) || empty($mail_input) || empty($sifre) || empty($sifre_tekrar)){
+        $error = "Lütfen tüm alanları doldurun.";
+    } elseif($sifre !== $sifre_tekrar){
+        $error = "Şifreler eşleşmiyor.";
+    } elseif(!preg_match('/[._]/', $sifre)){
+        $error = "Şifreniz en az bir nokta (.) veya alt çizgi (_) içermelidir.";
     } else {
-        $stmt = $conn->prepare("INSERT INTO users (username, email, password) VALUES (?, ?, ?)");
-        $stmt->bind_param("sss", $username, $email, $password_hash);
-
-        if ($stmt->execute()) {
-            $success = "Kayıt başarılı! Giriş yapabilirsiniz.";
+        // Kullanıcı var mı kontrol et
+        $stmt = $conn->prepare("SELECT id FROM uye WHERE mail = ?");
+        $stmt->bind_param("s", $mail);
+        $stmt->execute();
+        $stmt->store_result();
+        if($stmt->num_rows > 0){
+            $error = "Bu email zaten kayıtlı.";
         } else {
-            $error = "Kayıt sırasında hata oluştu!";
+            // Kayıt işlemi (düz metin şifre)
+            $stmt = $conn->prepare("INSERT INTO uye (isim, mail, sifre) VALUES (?, ?, ?)");
+            $stmt->bind_param("sss", $isim, $mail, $sifre);
+            if($stmt->execute()){
+                $success = "Kayıt başarılı! Şimdi giriş yapabilirsiniz.";
+            } else {
+                $error = "Kayıt sırasında bir hata oluştu.";
+            }
         }
     }
 }
 ?>
 
 <!DOCTYPE html>
-<html>
+<html lang="tr">
 <head>
-    <title>Kayıt Ol</title>
-    <style>
-        body { font-family: Arial; display:flex; justify-content:center; align-items:center; height:100vh; background:#f4f4f4; }
-        form { background:#fff; padding:30px; border-radius:8px; box-shadow:0 0 10px rgba(0,0,0,0.2); width:300px; }
-        input { width:100%; padding:10px; margin:10px 0; }
-        button { width:100%; padding:10px; background:#007BFF; color:#fff; border:none; cursor:pointer; }
-        .message { color:red; margin-bottom:10px; }
-        .success { color:green; margin-bottom:10px; }
-    </style>
+<meta charset="UTF-8">
+<title>Kayıt Ol</title>
+<link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
 </head>
-<body>
-    <form method="POST" action="">
-        <h2>Kayıt Ol</h2>
-        <?php if(isset($error)) echo "<div class='message'>$error</div>"; ?>
-        <?php if(isset($success)) echo "<div class='success'>$success</div>"; ?>
-        <input type="text" name="username" placeholder="Kullanıcı Adı" required>
-        <input type="email" name="email" placeholder="Email" required>
-        <input type="password" name="password" placeholder="Şifre" required>
-        <button type="submit" name="register">Kayıt Ol</button>
-        <p style="text-align:center;margin-top:10px;">Zaten üye misiniz? <a href="login.php">Giriş Yap</a></p>
+<body class="d-flex justify-content-center align-items-center" style="height:100vh;">
+<div class="card p-4" style="width: 350px;">
+    <h3 class="mb-3 text-center">Kayıt Ol</h3>
+    <?php 
+        if($error) echo '<div class="alert alert-danger">'.$error.'</div>'; 
+        if($success) echo '<div class="alert alert-success">'.$success.'</div>';
+    ?>
+    <form action="" method="post">
+        <div class="mb-2">
+            <input type="text" name="isim" class="form-control" placeholder="Kullanıcı Adı" required>
+        </div>
+        <div class="mb-2 input-group">
+            <input type="text" name="mail" class="form-control" placeholder="Email (sadece baş kısmı)" required>
+            <span class="input-group-text">@gmail.com</span>
+        </div>
+        <div class="mb-2">
+            <!-- Şifre input gizli olacak -->
+            <input type="password" name="sifre" class="form-control" placeholder="Şifre (en az bir . veya _)" required>
+        </div>
+        <div class="mb-3">
+            <input type="password" name="sifre_tekrar" class="form-control" placeholder="Şifre Tekrar" required>
+        </div>
+        <button type="submit" name="register" class="btn btn-primary w-100">Kayıt Ol</button>
     </form>
+    <p class="mt-3 text-center">Zaten üye misin? <a href="login.php">Giriş Yap</a></p>
+</div>
 </body>
 </html>
