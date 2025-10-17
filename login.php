@@ -2,50 +2,85 @@
 session_start();
 require 'db.php';
 
-if(isset($_POST['login'])) {
-    $email = $_POST['email'];
-    $password = $_POST['password'];
+$error = '';
 
-    $stmt = $conn->prepare("SELECT * FROM users WHERE email = ?");
-    $stmt->bind_param("s", $email);
+if (isset($_POST['login'])) {
+    $mail = trim($_POST['mail']);
+    $sifre = trim($_POST['sifre']);
+
+    // Kullanıcıyı mail ile çek
+    $stmt = $conn->prepare("SELECT id, isim, mail, sifre FROM uye WHERE mail = ?");
+    $stmt->bind_param("s", $mail);
     $stmt->execute();
-    $result = $stmt->get_result();
+    $stmt->store_result();
+    $stmt->bind_result($id, $isim, $email_db, $sifre_db);
 
-    if($row = $result->fetch_assoc()){
-        if(password_verify($password, $row['password'])){
-            $_SESSION['kullanici'] = $row['username'];
-            $_SESSION['user_id'] = $row['id'];  // bu çok önemli!
-            header("Location: index.php"); // forum sayfası
+    if ($stmt->num_rows > 0) {
+        $stmt->fetch();
+
+        // Düz metin şifre kontrolü (istersen ileride password_hash'e geçebiliriz)
+        if ($sifre === $sifre_db) {
+
+            // ✅ Kullanıcıyı dizi şeklinde session'a kaydediyoruz
+            $_SESSION['kullanici'] = [
+                'id' => $id,
+                'username' => $isim,
+                'email' => $email_db
+            ];
+
+            header("Location: index.php");
             exit;
+
         } else {
-            echo "Şifre yanlış";
+            $error = "Email veya şifre yanlış.";
         }
     } else {
-        echo "Kullanıcı bulunamadı";
+        $error = "Email veya şifre yanlış.";
     }
 }
 ?>
 
 <!DOCTYPE html>
-<html>
+<html lang="tr">
 <head>
-    <title>Giriş Yap</title>
-    <style>
-        body { font-family: Arial; display:flex; justify-content:center; align-items:center; height:100vh; background:#f4f4f4; }
-        form { background:#fff; padding:30px; border-radius:8px; box-shadow:0 0 10px rgba(0,0,0,0.2); width:300px; }
-        input { width:100%; padding:10px; margin:10px 0; }
-        button { width:100%; padding:10px; background:#28a745; color:#fff; border:none; cursor:pointer; }
-        .message { color:red; margin-bottom:10px; }
-    </style>
+<meta charset="UTF-8">
+<title>Giriş Yap</title>
+<link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+<style>
+body {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #f8f9fa;
+}
+.card {
+    width: 350px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+</style>
 </head>
 <body>
-    <form method="POST" action="">
-        <h2>Giriş Yap</h2>
-        <?php if(isset($error)) echo "<div class='message'>$error</div>"; ?>
-        <input type="email" name="email" placeholder="Email" required>
-        <input type="password" name="password" placeholder="Şifre" required>
-        <button type="submit" name="login">Giriş Yap</button>
-        <p style="text-align:center;margin-top:10px;">Üye değil misiniz? <a href="register.php">Kayıt Ol</a></p>
+<div class="card p-4">
+    <h3 class="mb-3 text-center">Giriş Yap</h3>
+
+    <?php if($error): ?>
+        <div class="alert alert-danger"><?= htmlspecialchars($error, ENT_QUOTES, 'UTF-8'); ?></div>
+    <?php endif; ?>
+
+    <form action="" method="post">
+        <div class="mb-2">
+            <input type="email" name="mail" class="form-control" placeholder="Email" required>
+        </div>
+        <div class="mb-3">
+            <input type="password" name="sifre" class="form-control" placeholder="Şifre" required>
+        </div>
+        <button type="submit" name="login" class="btn btn-primary w-100">Giriş Yap</button>
     </form>
+
+    <p class="mt-3 text-center">
+        Hesabın yok mu? <a href="register.php">Kayıt Ol</a>
+    </p>
+</div>
 </body>
 </html>
